@@ -7,15 +7,18 @@ namespace SpaDay.Models
         public string Email { get; set; }
         public string Password { get; set; }
 
+        public Facials PreferredService { get; set; }
+
         public User()
         {
         }
 
-        public User(string u, string e, string p)
+        public User(string u, string e, string p, Facials preferredService)
         {
             Username = u;
             Email = e;
             Password = p;
+            PreferredService = preferredService;
         }
 
     }

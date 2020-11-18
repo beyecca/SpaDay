@@ -16,10 +16,10 @@ namespace SpaDay.Models
             NailService = nailService;
         }
 
-        public List<string> GetFacials()
-        {
-            return appropriateFacials;
-        }
+        //public List<string> GetFacials()
+        //{
+        //    return appropriateFacials;
+        //}
 
         public bool CheckSkinType(string skinType, string facialType)
         {
